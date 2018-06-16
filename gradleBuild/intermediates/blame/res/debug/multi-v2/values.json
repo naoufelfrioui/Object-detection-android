@@ -1,0 +1,113 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\naouf\\Desktop\\android\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\naouf\\Desktop\\android\\res\\values\\base-strings.xml",
+                    "from": {
+                        "startLines": "19,20,22,21,18",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "732,802,930,868,678",
+                        "endColumns": "68,64,58,60,52",
+                        "endOffsets": "796,862,984,924,726"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "650,719,784,843,904",
+                        "endColumns": "68,64,58,60,52",
+                        "endOffsets": "714,779,838,899,952"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\naouf\\Desktop\\android\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "674",
+                        "endColumns": "95",
+                        "endOffsets": "765"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1225",
+                        "endColumns": "94",
+                        "endOffsets": "1315"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\naouf\\Desktop\\android\\res\\values\\template-styles.xml",
+                    "from": {
+                        "startLines": "24,20,22,27,29,34",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "805,684,748,889,920,1122",
+                        "endLines": "24,20,22,27,32,39",
+                        "endColumns": "51,60,53,27,12,12",
+                        "endOffsets": "852,740,797,912,1114,1400"
+                    },
+                    "to": {
+                        "startLines": "19,21,22,23,24,28",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1174,1320,1380,1433,1460,1656",
+                        "endLines": "19,21,22,23,27,33",
+                        "endColumns": "50,59,52,26,12,12",
+                        "endOffsets": "1220,1375,1428,1455,1651,1929"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\naouf\\Desktop\\android\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "676",
+                        "endColumns": "54",
+                        "endOffsets": "726"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\naouf\\Desktop\\android\\res\\values\\template-dimens.xml",
+                    "from": {
+                        "startLines": "28,24,23,22,21,20,29",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1000,917,872,826,782,739,1071",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "1065,955,911,866,820,776,1134"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "295,365,408,452,497,540,582",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "360,403,447,492,535,577,645"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\naouf\\Desktop\\android\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "18,16,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "810,674,725",
+                        "endColumns": "82,49,83",
+                        "endOffsets": "888,719,804"
+                    },
+                    "to": {
+                        "startLines": "16,17,18",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "957,1040,1090",
+                        "endColumns": "82,49,83",
+                        "endOffsets": "1035,1085,1169"
+                    }
+                }
+            ]
+        }
+    ]
+}

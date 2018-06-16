@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sun Jun 17 00:35:52 CEST 2018
+1.base=C\:\\Users\\naouf\\Desktop\\android\\gradleBuild\\intermediates\\assets\\debug
+2.path=BUILD
+0.baseType=DIRECTORY
+2.base=C\:\\Users\\naouf\\Desktop\\android\\gradleBuild\\intermediates\\assets\\debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=frozen_inference_graph.pb
+0.set=ASSET
+0.base=C\:\\Users\\naouf\\Desktop\\android\\gradleBuild\\intermediates\\assets\\debug
+2.baseType=DIRECTORY
+1.path=coco_labels.txt
