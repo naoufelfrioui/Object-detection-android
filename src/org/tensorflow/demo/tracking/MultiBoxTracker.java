@@ -164,6 +164,7 @@ public class MultiBoxTracker {
   }
 
   public synchronized void draw(final Canvas canvas) {
+    int num_class=0;
     final boolean rotated = sensorOrientation % 180 == 90;
     final float multiplier =
         Math.min(canvas.getHeight() / (float) (rotated ? frameWidth : frameHeight),
@@ -187,6 +188,7 @@ public class MultiBoxTracker {
 
       if(recognition.title.equals("Roboter")){
         boxPaint.setColor(Color.rgb(135,206,250));
+
       }
       else if(recognition.title.equals("NIO")){
         boxPaint.setColor(Color.RED);
@@ -198,22 +200,23 @@ public class MultiBoxTracker {
         boxPaint.setColor(recognition.color);
       }
 
-      //boxPaint.setStyle(Paint.Style.FILL);
-      final float cornerSize = Math.min(trackedPos.width(), trackedPos.height()) / 8.0f;
-      //canvas.drawRoundRect(trackedPos, cornerSize, cornerSize, boxPaint);
-     canvas.drawRect(trackedPos.left,trackedPos.top, trackedPos.right, trackedPos.bottom, boxPaint);
+    
+      if(recognition.title.equals("NIO") || recognition.title.equals("IO")){
+        canvas.drawRect(trackedPos.left,trackedPos.top, trackedPos.right, trackedPos.bottom, boxPaint);
+        borderedText.drawText(canvas, trackedPos.left+10  , trackedPos.top-10,String.format("%s", recognition.title) ,boxPaint.getColor());
+        borderedText.drawText1(canvas, trackedPos.left+10 , trackedPos.bottom+60, substring(String.format("%.3f",100* recognition.detectionConfidence),0,2)+"%",boxPaint.getColor());
 
-//public void drawRect(float left, float top, float right, float bottom, @NonNull Paint paint)
-      //public void drawRoundRect(@NonNull RectF rect, float rx, float ry, @NonNull Paint paint)
-      //drawRoundRect(rect.left, rect.top, rect.right, rect.bottom, rx, ry, paint);
-      final String labelString =
-          !TextUtils.isEmpty(recognition.title)
-              ? String.format("%s %.2f", recognition.title, recognition.detectionConfidence)
-              : String.format("%.2f", recognition.detectionConfidence);
+      }
+      //
+      else if(recognition.title.equals("Roboter") && num_class==0 ){
+        num_class++;
+        canvas.drawRect(trackedPos.left,trackedPos.top, trackedPos.right, trackedPos.bottom, boxPaint);
+        borderedText.drawText(canvas, trackedPos.left+10  , trackedPos.top-10,String.format("%s", recognition.title) ,boxPaint.getColor());
+        borderedText.drawText1(canvas, trackedPos.left+10 , trackedPos.bottom+60, substring(String.format("%.3f",100* recognition.detectionConfidence),0,2)+"%",boxPaint.getColor());
+
+      }
 
 
-      borderedText.drawText(canvas, trackedPos.left+10  , trackedPos.top-10,String.format("%s", recognition.title) ,boxPaint.getColor());
-      borderedText.drawText1(canvas, trackedPos.left+10 , trackedPos.bottom+60, substring(String.format("%.3f",100* recognition.detectionConfidence),0,2)+"%",boxPaint.getColor());
     }
   }
 
