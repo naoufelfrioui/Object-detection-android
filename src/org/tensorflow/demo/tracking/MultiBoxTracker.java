@@ -200,7 +200,7 @@ public class MultiBoxTracker {
         boxPaint.setColor(recognition.color);
       }
 
-    
+
       if(recognition.title.equals("NIO") || recognition.title.equals("IO")){
         canvas.drawRect(trackedPos.left,trackedPos.top, trackedPos.right, trackedPos.bottom, boxPaint);
         borderedText.drawText(canvas, trackedPos.left+10  , trackedPos.top-10,String.format("%s", recognition.title) ,boxPaint.getColor());

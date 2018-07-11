@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
 ADDED from C:\Users\naouf\Desktop\android\AndroidManifest.xml:18:1-52:12
-MERGED from [org.tensorflow:tensorflow-android:1.8.0] C:\Users\naouf\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.8.0.aar\318c0f8bee5e6438bff8cc303119bd69\AndroidManifest.xml:2:1-8:12
+MERGED from [org.tensorflow:tensorflow-android:1.9.0-rc2] C:\Users\naouf\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.9.0-rc2.aar\e3e755ad41493b356613a2972c52fecd\AndroidManifest.xml:2:1-8:12
 	package
 		ADDED from C:\Users\naouf\Desktop\android\AndroidManifest.xml:19:5-34
 	xmlns:android
@@ -34,8 +34,8 @@ ADDED from C:\Users\naouf\Desktop\android\AndroidManifest.xml:27:5-29:41
 		ADDED from C:\Users\naouf\Desktop\android\AndroidManifest.xml:28:9-35
 application
 ADDED from C:\Users\naouf\Desktop\android\AndroidManifest.xml:31:5-50:19
-MERGED from [org.tensorflow:tensorflow-android:1.8.0] C:\Users\naouf\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.8.0.aar\318c0f8bee5e6438bff8cc303119bd69\AndroidManifest.xml:5:5-6:19
-MERGED from [org.tensorflow:tensorflow-android:1.8.0] C:\Users\naouf\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.8.0.aar\318c0f8bee5e6438bff8cc303119bd69\AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.9.0-rc2] C:\Users\naouf\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.9.0-rc2.aar\e3e755ad41493b356613a2972c52fecd\AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.9.0-rc2] C:\Users\naouf\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.9.0-rc2.aar\e3e755ad41493b356613a2972c52fecd\AndroidManifest.xml:5:5-6:19
 	android:label
 		ADDED from C:\Users\naouf\Desktop\android\AndroidManifest.xml:33:9-41
 	android:debuggable
