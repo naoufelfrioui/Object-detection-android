@@ -10,8 +10,7 @@ This project helps to manage machine learning data.
     - `C:\Users\YOUR USER NAME>node `
     
 * install [Angular CLI](https://cli.angular.io/) 
-
-      - ` C:\Users\YOUR USER NAME> npm install -g @angular/cli `
+    - `C:\Users\YOUR USER NAME> npm install -g @angular/cli `
       
 * Download and install mongo database (Version 4.0.4 for Windows 10) link: https://www.mongodb.com/download-center/community?jmp=docs
  
