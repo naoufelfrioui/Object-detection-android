@@ -38,8 +38,9 @@ Use this process when in case you are a developer. The process will start two se
 
 1.  After the initial installation (1 - 5)
 2.  Run `npm start` in server folder to start the nodejs server in development mode
-3.  Run `npm start` in client folder to start the angular server in development mode
-4.  Navigate to http://localhost:4200/ to access the UI
+3.  Open neu command line window
+4.  Run `npm start` in client folder to start the angular server in development mode
+5.  Navigate to http://localhost:4200/ to access the UI
 
 ## Production
 
