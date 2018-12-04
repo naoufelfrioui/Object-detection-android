@@ -29,7 +29,7 @@ This will install all the dependencies required prior to running the service.
 
 1.  Start MongoDB :  `C:\Users\YOUR USER NAME>mongod`
 2.  Unpack the archive repository
-Open the command line window and navigate (using cd) to the repository  `.../machine-learning-data-management-system`
+3.  Open the command line window and navigate (using cd) to the repository  `.../machine-learning-data-management-system`
 4.  Move into client folder and install dependencies with `.../machine-learning-data-management-system/client> npm install`
 5.  Move into server folder and install dependencies with `.../machine-learning-data-management-system/server> npm install`
 
