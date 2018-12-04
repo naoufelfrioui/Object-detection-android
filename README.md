@@ -5,6 +5,7 @@ This project helps to manage machine learning data.
 ## Prerequisites
 
 *  Download and install Node.js (Version 10.14.1 for Windows 10) link: https://nodejs.org/en/
+
     -To test if node.js is working, open a command line window and type "node". The following output is expected:
     - `C:\Users\YOUR USER NAME>node `
     
