@@ -43,7 +43,7 @@ Use this process when in case you are a developer. The process will start two se
 
 ## Production
 
-Use this process when you want to deploy the project. 
+Use this process when you want to deploy the project. If you intend to run the server in production mode somewhere else than the image server (e.g. Raspberry Pi) you need to change the base url variable in `client/src/environments/environment.prod.ts` to the url of the new device prior to generating the production build of the client. This is also necessary, if you intend to test the production build on you local machine.
 
 1.  After the initial installation (1 - 5)
 3.  Generate production build of frontend in client folder with `.../machine-learning-data-management-system/client> ng build --prod`
