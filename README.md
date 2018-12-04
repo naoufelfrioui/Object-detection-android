@@ -26,10 +26,10 @@ This project helps to manage machine learning data.
 This will install all the dependencies required prior to running the service.
 
 1.  Start MongoDB :  `C:\Users\YOUR USER NAME>mongod`
-2.  Clone repository
-3.  Move into cloned repository `cd machine-learning-data-management-system/`
-4.  Move into client folder and install dependencies with `npm install`
-5.  Move into server folder and install dependencies with `npm install`
+2.  Unpack the archive repository
+Open the command line window and navigate (using cd) to the repository  `.../machine-learning-data-management-system`
+4.  Move into client folder and install dependencies with `.../machine-learning-data-management-system/client> npm install`
+5.  Move into server folder and install dependencies with `.../machine-learning-data-management-system/server> npm install`
 
 ## Development (locally)
 
@@ -41,14 +41,13 @@ Use this process when in case you are a developer. The process will start two se
 
 ## Production
 
-Use this process when you want to deploy the project. If you intend to run the server in production mode somewhere else than the image server (e.g. Raspberry Pi) you need to change the base url variable in `client/src/environments/environment.prod.ts` to the url of the new device prior to generating the production build of the client. This is also necessary, if you intend to test the production build on you local machine.
+Use this process when you want to deploy the project. 
 
 1.  After the initial installation (1 - 5)
-2.  Create a .env file in the server folder that contains a PRODUCTION_SECRET (random string) which will be used to generate json web tokens (DO NOT ADD TO VCS)
-3.  Generate production build of frontend in client folder with `ng build --prod`
-4.  Copy the generated `dist` folder from client folder to server folder or only copy dist/client if server already has a dist folder
-5.  Generate production build of backend in server folder with `npm run build:prod`
-6.  Start server from server folder in production mode with `npm run start:prod`
+3.  Generate production build of frontend in client folder with `.../machine-learning-data-management-system/client> ng build --prod`
+4.  Copy the generated `dist` folder from client folder to server folder or only copy `dist/client` if server already has a dist folder
+5.  Generate production build of backend in server folder with `.../machine-learning-data-management-system/server> npm run build:prod`
+6.  Start server from server folder in production mode with `.../machine-learning-data-management-system/server> npm run start:prod`
 
 ## Endpoints
 
