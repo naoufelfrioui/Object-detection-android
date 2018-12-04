@@ -4,13 +4,17 @@ This project helps to manage machine learning data.
 
 ## Prerequisites
 
-- [Node.js]Version [10.14.1] for Windows 10 (https://nodejs.org/en/) 
-
-* [Angular CLI](https://cli.angular.io/) 
-
-* [MongoDB 4.0.4](https://www.mongodb.com/) 
-
-    - On successful installation of the mongo database you have to set the Mongo installation path `C:\Program Files\MongoDB\Server\4.0\bin` under the System Path variables so as to get the mongo commands recognized
+*  Download and install Node.js (Version 10.14.1 for Windows 10) link: https://nodejs.org/en/
+    -To test if node.js is working, open a command line window and type "node". The following output is expected:
+    - `C:\Users\YOUR USER NAME>node `
+    
+* install [Angular CLI](https://cli.angular.io/) 
+      - `C:\Users\YOUR USER NAME> npm install -g @angular/cli`
+      
+* Download and install mongo database (Version 4.0.4 for Windows 10) link: https://www.mongodb.com/download-center/community?jmp=docs
+ 
+    - Add the directory `C:\Program Files\MongoDB\Server\4.0\bin` to the environment variable PATH so as to get the mongo commands recognized. Open the  `Advance System Settings `, open  `Environment Settings ` and add the path `C:\Program    Files\MongoDB\Server\4.0\bin` for the System Variable PATH
+    
     - Create the folder the location where you want to create the database for example  `c:\data\db`
     - start mongod: `C:\Users\YOUR USER NAME>mongod --dbpath`   for example  `--dbpath  "c:\data\db" `
    
