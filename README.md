@@ -5,19 +5,19 @@ This project helps to manage machine learning data.
 ## Prerequisites
 
 *  Download and install Node.js (Version 10.14.1 for Windows 10) link: https://nodejs.org/en/
-
+    - Add the directory where node.js is installed to the environment variable PATH (the directory that contains "node").  Open the Advance System Settings, open Environment Settings and add the path in the table for theSystem Variable PATH. 
     -To test if node.js is working, open a command line window and type "node". The following output is expected:
-    - `C:\Users\YOUR USER NAME>node `
+    - Open command line window, use the following command: `node`
     
 * install [Angular CLI](https://cli.angular.io/) 
-    - `C:\Users\YOUR USER NAME> npm install -g @angular/cli `
+    - Open command line window, use the following command: `npm install -g @angular/cli `
       
 * Download and install mongo database (Version 4.0.4 for Windows 10) link: https://www.mongodb.com/download-center/community?jmp=docs
  
     - Add the directory `C:\Program Files\MongoDB\Server\4.0\bin` to the environment variable PATH so as to get the mongo commands recognized. Open the  `Advance System Settings `, open  `Environment Settings ` and add the path `C:\Program    Files\MongoDB\Server\4.0\bin` for the System Variable PATH
     
     - Create the folder the location where you want to create the database for example  `c:\data\db`
-    - start mongod: `C:\Users\YOUR USER NAME>mongod --dbpath`   for example  `--dbpath  "c:\data\db" `
+    - start mongod: Open command line window, use the following command:`mongod --dbpath`   for example  `--dbpath  "c:\data\db" `
    
     
 * Some of the instruction may require you to have admin permissions on your system
@@ -26,11 +26,11 @@ This project helps to manage machine learning data.
 
 This will install all the dependencies required prior to running the service.
 
-1.  Start MongoDB :  `C:\Users\YOUR USER NAME>mongod`
+1.  Start MongoDB :Open command line window, use the following command:  ` mongod`
 2.  Unpack the archive repository
 3.  Open the command line window and navigate (using cd) to the repository  `.../machine-learning-data-management-system`
-4.  Move into client folder and install dependencies with `.../machine-learning-data-management-system/client>npm install`
-5.  Move into server folder and install dependencies with `.../machine-learning-data-management-system/server>npm install`
+4.  Move into client folder and install dependencies with `npm install`
+5.  Move into server folder and install dependencies with `npm install`
 
 ## Development (locally)
 
@@ -47,10 +47,10 @@ Use this process when in case you are a developer. The process will start two se
 Use this process when you want to deploy the project. If you intend to run the server in production mode somewhere else than the image server (e.g. Raspberry Pi) you need to change the base url variable in `client/src/environments/environment.prod.ts` to the url of the new device prior to generating the production build of the client for example `http://localhost:8000/api`. This is also necessary, if you intend to test the production build on you local machine.
 
 1.  After the initial installation (1 - 5)
-3.  Generate production build of frontend in client folder with `.../machine-learning-data-management-system/client> ng build --prod`
+3.  Generate production build of frontend in client folder with `ng build --prod`
 4.  Copy the generated `dist` folder from client folder to server folder or only copy `dist/client` if server already has a dist folder
-5.  Generate production build of backend in server folder with `.../machine-learning-data-management-system/server> npm run build:prod`
-6.  Start server from server folder in production mode with `.../machine-learning-data-management-system/server> npm run start:prod`
+5.  Generate production build of backend in server folder with `npm run build:prod`
+6.  Start server from server folder in production mode with `npm run start:prod`
 7. Navigate to http://localhost:8000/ to access the UI
 
 ## Endpoints
